@@ -1,0 +1,36 @@
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  padding: 20px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+#game-info {
+  width: 100px;
+  margin: 0 auto;
+}
+
+
+.square {
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+}
+
+img {
+  width: 100%;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+button {
+  margin-bottom: 10px;
+}
